@@ -1,11 +1,11 @@
 Datos de las empresas
 
 - nombre
-- giro
 - telefono
 - email
-- ubicacion
 - logo
+- giro
+- ubicacion
 
 solicitud
 - numero de vacantes
