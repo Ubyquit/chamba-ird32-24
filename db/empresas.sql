@@ -108,9 +108,13 @@ CREATE TABLE empresas(
     nombre VARCHAR(100),
     telefono VARCHAR(10),
     email VARCHAR(50),
+    contrasena varchar(50),
     logo VARCHAR(500),
     id_giro_empresarial INT,
     id_ubicacion INT,
     FOREIGN KEY(id_giro_empresarial) REFERENCES giro_empresarial(id_giro_empresarial),
     FOREIGN KEY(id_ubicacion) REFERENCES ubicaciones(id_ubicacion)
 );
+
+
+ALTER TABLE empresas ADD contrasena VARCHAR(50) NOT NULL AFTER email;

@@ -1,0 +1,14 @@
+- id_usuario, id_empresa
+- titulo, descripción
+- Intereses - multiple
+- Habilidades - multiple
+- Grados de estudio - unico
+- Experiencia - unico
+- Modalidad - unico
+- Edad - unico
+- Jornada laboral - unico
+- Salario - unico
+- Prestaciones - multiple
+- Idiomas - multiple
+- Contrato - unico
+- fecha
